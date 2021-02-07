@@ -1,8 +1,5 @@
 // Question 1
 
-const division = (a, b) => {
-  // console.log(a % b);
-  return a % b;
-};
+const division = (a, b) => a % b;
 
 division(50, 6);
