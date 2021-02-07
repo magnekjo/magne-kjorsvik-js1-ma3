@@ -16,6 +16,7 @@ async function getGames() {
     for (let i = 0; i < gamesInfo.length; i++) {
       //console.log(gamesInfo[i].name);
       //console.log(gamesInfo[i].rating);
+      //console.log(gamesInfo[i].tags.length);
 
       gamesContainer.innerHTML += `<div class="game">Name: ${gamesInfo[i].name}<br>Rating: ${gamesInfo[i].rating}<br>Tags: ${gamesInfo[i].tags.length} </div>`;
 
