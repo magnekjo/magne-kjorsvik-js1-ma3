@@ -25,7 +25,7 @@ async function getGames() {
     }
   } catch (error) {
     console.log("An error has occured");
-    gamesContainer.innerHTML = "An error has occured. " + error;
+    gamesContainer.innerHTML = "An error has occured.<br>" + error;
   }
 }
 
